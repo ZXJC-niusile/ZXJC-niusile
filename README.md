@@ -14,8 +14,8 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>About Me</h3>
+    <td width="50%" valign="middle">
+      <h3>🚀 About Me</h3>
       <ul>
         <li>🌱 <strong>Current Status:</strong> A novice in Deep Learning.</li>
         <li>🔭 <strong>Research Interests:</strong>
@@ -26,7 +26,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         </li>
       </ul>
     </td>
-    <td width="50%" valign="center">
+    <td width="50%" valign="middle">
       <div align="center">
         <a href="https://github.com/ZXJC-niusile">
           <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="100%" alt="Streak" />
@@ -36,11 +36,11 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌟 Open Source</h3>
+      <h3>🌟 Open Source Contributions</h3>
       <ul>
         <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
           <br>
-          Contributed to the Unified Deep Learning and Reinforcement Learning Framework.
+          I am a <strong>Contributor</strong> to this Unified Deep Learning Framework.
         </li>
       </ul>
     </td>
