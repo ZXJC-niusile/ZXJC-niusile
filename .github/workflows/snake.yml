@@ -16,19 +16,17 @@ jobs:
 
       - uses: Platane/snk@v3
         with:
-          # github user name to read the contribution graph from (**required**)
           github_user_name: ${{ github.repository_owner }}
-
-          # list of files to generate.
-          # 这里我为你定制了配色：
+          # 🎨 配色魔法：
           # color_snake: #bf91f3 (你的主题亮紫)
-          # color_dots: 背景色(#1f2040) -> 浅紫 -> 深紫 的渐变
+          # color_dots: 从背景色(#1f2040) 到 亮粉白(#F2E6F1) 的渐变
           outputs: |
             dist/github-snake.svg?color_snake=#bf91f3&color_dots=#1f2040,#4a4b70,#70a5fd,#9194bf,#F2E6F1
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#bf91f3
 
+      # 👇👇👇 修正了这里的名字 (删掉了 gh 和 action 中间的横杠) 👇👇👇
       - name: Push to the output branch
-        uses: crazy-max/gh-action-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
