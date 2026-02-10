@@ -12,12 +12,10 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 🌐 **Blog:** [zxjc-niusile.github.io](https://zxjc-niusile.github.io/) | 🆔 **ORCID:** [0009-0009-7380-3094](https://orcid.org/0009-0009-7380-3094) | 📧 **Email:** [2632590648@qq.com](mailto:2632590648@qq.com)
 
-<hr>
-
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 About Me</h3>
+      <h3>About Me</h3>
       <ul>
         <li>🌱 <strong>Current Status:</strong> A novice in Deep Learning.</li>
         <li>🔭 <strong>Research Interests:</strong>
@@ -37,27 +35,4 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>🌟 Open Source</h3>
-      <ul>
-        <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
-          <br>
-          Contributed to the Unified Deep Learning and Reinforcement Learning Framework.
-        </li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💻 Coursework & Practice</h3>
-      <ul>
-        <li><strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong>
-          <br>
-          Backend for IR course project.
-        </li>
-        <li><strong><a href="https://github.com/ZXJC-niusile/huawei_carousel_backend">Carousel Framework</a> (Python)</strong>
-          <br>
-          Demo for Huawei Developer Alliance.
-        </li>
-      </ul>
-    </td>
-  </tr>
-</table>
+    <td width="50%"
