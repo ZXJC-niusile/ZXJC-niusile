@@ -6,10 +6,15 @@
 
 <div align="center">
   <strong>Deep Learning Novice | LLM & Multi-modal Enthusiast</strong>
-  <br>
-  🎓 <strong>BISTU</strong> Undergraduate · 📍 <strong>Beijing, China</strong>
+  
+  &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
+  
+  🎓 <strong>BISTU</strong> Undergraduate
+  
+  &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
+  
+  📍 <strong>Beijing, China</strong>
 </div>
-<br>
 
 Hi! I am a developer exploring the world of AI from scratch, currently on a journey to master **Deep Learning, LLMs**, and **Multi-modal AI**. My motto is **'Destroyed them!'** 💥
 
