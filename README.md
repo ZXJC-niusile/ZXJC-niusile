@@ -24,13 +24,13 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <table>
   <tr>
     <td width="50%" valign="middle">
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;🚀 About Me</h3>
+      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🚀 About Me</h3>
       <ul>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;🌱 <strong>Status:</strong> Novice in Deep Learning.</li>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;🔭 <strong>Interests:</strong>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🌱 <strong>Status:</strong> Novice in Deep Learning.</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🔭 <strong>Interests:</strong>
           <ul>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;Multi-modal Large Models & LLMs</li>
-            <li>&nbsp;&nbsp;&nbsp;&nbsp;GNN & Information Retrieval</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multi-modal Large Models & LLMs</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GNN & Information Retrieval</li>
           </ul>
         </li>
       </ul>
@@ -46,24 +46,24 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
   
   <tr>
     <td width="50%" valign="top">
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;🌟 Open Source Contributions</h3>
+      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🌟 Open Source Contributions</h3>
       <ul>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
           <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;I am a <strong>Contributor</strong> to this Unified Deep Learning Framework.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a <strong>Contributor</strong> to this Unified Deep Learning Framework.
         </li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;💻 Coursework & Practice</h3>
+      <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💻 Coursework & Practice</h3>
       <ul>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong>
           <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Backend for IR course project.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backend for IR course project.
         </li>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://github.com/ZXJC-niusile/huawei_carousel_backend">Carousel Framework</a> (Python)</strong>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="https://github.com/ZXJC-niusile/huawei_carousel_backend">Carousel Framework</a> (Python)</strong>
           <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;Demo for Huawei Developer Alliance.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo for Huawei Developer Alliance.
         </li>
       </ul>
     </td>
