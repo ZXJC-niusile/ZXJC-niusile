@@ -8,14 +8,14 @@ def download_stats():
     username = "ZXJC-niusile"
     
     # ==========================
-    # 🎨 颜色配置 (TokyoNight 风格)
+    # 🎨 颜色配置 (自定义：午夜紫罗兰风格)
     # ==========================
-    bg_color = "1f2040"      # 背景：深蓝
-    title_color = "9194bf"   # 标题：浅蓝
-    text_color = "F2E6F1"    # 文字：青色
-    icon_color = "DOD1F9"    # 图标：紫色
-    ring_color = "9194bf"    # 圆环：紫色
-    border_color = "70a5fd"  # 边框：浅蓝 (配合标题颜色)
+    bg_color = "1f2040"      # 背景：深邃午夜蓝
+    title_color = "9194bf"   # 标题：淡紫罗兰色
+    text_color = "F2E6F1"    # 文字：极浅粉白
+    icon_color = "D0D1F9"    # 图标：淡薰衣草紫 (已修正拼写 DOD -> D0D)
+    ring_color = "9194bf"    # 圆环：淡紫罗兰色 (与标题呼应)
+    border_color = "70a5fd"  # 边框：亮天蓝 (作为提亮色)
     
     # 构造 URL
     # ⚠️ 关键修复：已移除 &include_all_commits=true 以解决 503 报错
