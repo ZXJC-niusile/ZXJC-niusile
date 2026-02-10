@@ -40,7 +40,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     <td width="50%" valign="middle" align="center">
       <div align="center">
         <a href="https://github.com/ZXJC-niusile">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZXJC-niusile&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" width="90%" alt="Most Used Languages" />
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="90%" alt="Streak" />
         </a>
       </div>
     </td>
