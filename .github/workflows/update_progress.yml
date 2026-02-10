@@ -2,46 +2,68 @@ name: Update Profile Assets
 
 on:
   schedule:
-    # 每天北京时间 00:00 运行 (即 UTC 16:00)
-    - cron: '0 16 * * *'
-  # 允许手动点击按钮运行
-  workflow_dispatch:
+    - cron: '0 16 * * *' # 每天北京时间 00:00 运行
+  workflow_dispatch: # 允许手动运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 必须赋予写权限以便提交生成的图片
+      contents: write # 必须有写权限
       
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # ===============================================
+      # 1. 运行 Python 生成进度条 (保留)
+      # ===============================================
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install requests
+        run: pip install requests
 
-      - name: Run Python scripts
+      - name: Generate Progress Bar
         env:
-          # 注意：这里将 secrets.GITHUB_TOKEN 赋值给 GH_TOKEN
-          # 因为 github_stats.py 脚本里写的是 os.environ.get("GH_TOKEN")
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python draw_progress.py
-          python github_stats.py
+        run: python draw_progress.py
 
+      # ===============================================
+      # 2. 使用官方 Action 生成统计卡片 (自定义配色版)
+      # ===============================================
+      - name: Generate GitHub Stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          path: github_stats.svg
+          # ⚠️ 这里填入了你的自定义颜色代码 (去掉 # 号)
+          options: >
+            username=ZXJC-niusile
+            &show_icons=true
+            &hide_border=false
+            &include_all_commits=true
+            &count_private=true
+            &bg_color=1f2040
+            &title_color=9194bf
+            &text_color=F2E6F1
+            &icon_color=D0D1F9
+            &ring_color=9194bf
+            &border_color=70a5fd
+
+      # ===============================================
+      # 3. 提交所有图片
+      # ===============================================
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 强制添加两个生成的文件
+          # 强制添加两个文件
           git add progress.svg github_stats.svg
           
-          # 检查是否有变更，如果有则提交并推送；如果没有变更则不做任何事
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile assets (progress & stats)" && git push)
+          # 提交
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile stats & progress" && git push)
