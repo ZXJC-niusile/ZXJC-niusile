@@ -88,6 +88,5 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <br>
 
 <div align="center">
-  <h3>🏆 3D Contribution Graph</h3>
   <img src="./profile-3d-contrib/profile-season.svg" width="100%" alt="3D Stats" />
 </div>>
