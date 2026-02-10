@@ -5,11 +5,7 @@
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
 <div align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/countdown.json&query=$.days&label=Days%20Left%20in%202026&color=3776AB&style=flat-square&cacheSeconds=3600" alt="Countdown">
-  
-  <br>
-
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/countdown.json&query=$.progress&label=2026%20Progress&suffix=%25&color=3776AB&style=flat-square&cacheSeconds=3600" alt="Progress">
+  <img src="./progress.svg" width="60%" alt="Year Progress" />
 </div>
 
 <div align="center">
