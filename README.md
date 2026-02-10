@@ -16,35 +16,48 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <table>
   <tr>
-    <td width="60%" valign="top" style="border: none;">
+    <td width="50%" valign="top">
       <h3>🚀 About Me</h3>
       <ul>
-        <li>🌱 <strong>Current Status:</strong> A novice in Deep Learning, striving to build my knowledge system.</li>
+        <li>🌱 <strong>Current Status:</strong> A novice in Deep Learning.</li>
         <li>🔭 <strong>Research Interests:</strong>
           <ul>
-            <li><strong>Core Focus:</strong> Multi-modal Large Models & LLMs.</li>
-            <li><strong>Exploring:</strong> Graph Neural Networks (GNN) & Information Retrieval.</li>
+            <li><strong>Focus:</strong> Multi-modal Large Models & LLMs.</li>
+            <li><strong>Exploring:</strong> GNN & Information Retrieval.</li>
           </ul>
         </li>
       </ul>
-      <br/>
-      <h3>📦 Contributions & Projects</h3>
-      <h4>🌟 Open Source</h4>
-      <ul>
-        <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a>:</strong> Contributed to the Unified Deep Learning and Reinforcement Learning Framework.</li>
-      </ul>
-      <h4>💻 Coursework & Practice</h4>
-      <ul>
-        <li><strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a>:</strong> Backend implementation for an Information Retrieval course project (Java).</li>
-        <li><strong><a href="https://github.com/ZXJC-niusile/huawei_carousel_backend">huawei_carousel_backend</a>:</strong> A carousel framework demo for the Huawei Developer Alliance (Python).</li>
-      </ul>
     </td>
-    <td width="40%" valign="center" style="border: none;">
+    <td width="50%" valign="center">
       <div align="center">
         <a href="https://github.com/ZXJC-niusile">
           <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="100%" alt="Streak" />
         </a>
       </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌟 Open Source</h3>
+      <ul>
+        <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
+          <br>
+          Contributed to the Unified Deep Learning and Reinforcement Learning Framework.
+        </li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💻 Coursework & Practice</h3>
+      <ul>
+        <li><strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong>
+          <br>
+          Backend for IR course project.
+        </li>
+        <li><strong><a href="https://github.com/ZXJC-niusile/huawei_carousel_backend">Carousel Framework</a> (Python)</strong>
+          <br>
+          Demo for Huawei Developer Alliance.
+        </li>
+      </ul>
     </td>
   </tr>
 </table>
