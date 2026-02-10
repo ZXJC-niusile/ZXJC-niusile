@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
 
       # ===============================================
-      # 1. 运行 Python 生成进度条 (保留)
+      # 1. 运行 Python 生成进度条
       # ===============================================
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,7 +32,7 @@ jobs:
         run: python draw_progress.py
 
       # ===============================================
-      # 2. 使用官方 Action 生成统计卡片 (自定义配色版)
+      # 2. 使用官方 Action 生成统计卡片
       # ===============================================
       - name: Generate GitHub Stats
         uses: readme-tools/github-readme-stats-action@v1
@@ -40,19 +40,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           card: stats
           path: github_stats.svg
-          # ⚠️ 这里填入了你的自定义颜色代码 (去掉 # 号)
-          options: >
-            username=ZXJC-niusile
-            &show_icons=true
-            &hide_border=false
-            &include_all_commits=true
-            &count_private=true
-            &bg_color=1f2040
-            &title_color=9194bf
-            &text_color=F2E6F1
-            &icon_color=D0D1F9
-            &ring_color=9194bf
-            &border_color=70a5fd
+          # ⚠️ 修复关键：所有参数写在同一行，中间不要有空格！
+          options: username=ZXJC-niusile&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=1f2040&title_color=9194bf&text_color=F2E6F1&icon_color=D0D1F9&ring_color=9194bf&border_color=70a5fd
 
       # ===============================================
       # 3. 提交所有图片
