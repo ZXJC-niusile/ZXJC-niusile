@@ -5,6 +5,14 @@
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
 <div align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/countdown.json&query=$.days&label=Days%20Left%20in%202026&color=3776AB&style=flat-square&cacheSeconds=3600" alt="Countdown">
+  
+  <br>
+
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/countdown.json&query=$.progress&label=2026%20Progress&suffix=%25&color=3776AB&style=flat-square&cacheSeconds=3600" alt="Progress">
+</div>
+
+<div align="center">
   <strong>Deep Learning Novice | LLM & Multi-modal Enthusiast</strong>
   &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
   🎓 <strong>BISTU</strong> Undergraduate
