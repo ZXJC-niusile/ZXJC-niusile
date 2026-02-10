@@ -35,4 +35,27 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     </td>
   </tr>
   <tr>
-    <td width="50%"
+    <td width="50%" valign="top">
+      <h3>🌟 Open Source</h3>
+      <ul>
+        <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
+          <br>
+          Contributed to the Unified Deep Learning and Reinforcement Learning Framework.
+        </li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💻 Coursework & Practice</h3>
+      <ul>
+        <li><strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong>
+          <br>
+          Backend for IR course project.
+        </li>
+        <li><strong><a href="https://github.com/ZXJC-niusile/huawei_carousel_backend">Carousel Framework</a> (Python)</strong>
+          <br>
+          Demo for Huawei Developer Alliance.
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
