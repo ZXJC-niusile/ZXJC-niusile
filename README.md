@@ -10,12 +10,6 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 🌐 **Blog:** [zxjc-niusile.github.io](https://zxjc-niusile.github.io/) | 🆔 **ORCID:** [0009-0009-7380-3094](https://orcid.org/0009-0009-7380-3094) | 📧 **Email:** 2632590648@qq.com
 
-<div align="right" style="margin-left: 20px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZXJC-niusile&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" width="350" alt="Stats" />
-  <br/>
-  <br/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="350" alt="Streak" />
-</div>
-
 ### About Me
 
 <table>
