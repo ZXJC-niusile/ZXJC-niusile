@@ -6,11 +6,12 @@
 
 <div align="center">
   <strong>Deep Learning Novice | LLM & Multi-modal Enthusiast</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
   🎓 <strong>BISTU</strong> Undergraduate
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
   📍 <strong>Beijing, China</strong>
 </div>
+<br>
 
 Hi! I am a developer exploring the world of AI from scratch, currently on a journey to master **Deep Learning, LLMs**, and **Multi-modal AI**. My motto is **'Destroyed them!'** 💥
 
@@ -24,8 +25,8 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <table>
   <tr>
-    <td width="50%" valign="middle" style="padding-left: 50px;">
-      <h3>About Me</h3>
+    <td width="50%" valign="middle" style="padding-left: 40px;">
+      <h3>🚀 About Me</h3>
       <ul>
         <li>🌱 <strong>Status:</strong> Novice in Deep Learning.</li>
         <li>🔭 <strong>Interests:</strong>
@@ -39,14 +40,14 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     <td width="50%" valign="middle" align="center">
       <div align="center">
         <a href="https://github.com/ZXJC-niusile">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="100%" alt="Streak" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZXJC-niusile&layout=compact&hide_border=true&theme=tokyonight&hide=html,css,jupyter%20notebook" width="90%" alt="Top Languages" />
         </a>
       </div>
     </td>
   </tr>
   
   <tr>
-    <td width="50%" valign="top" style="padding-left: 50px;">
+    <td width="50%" valign="top" style="padding-left: 40px;">
       <h3>🌟 Open Source Contributions</h3>
       <ul>
         <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
@@ -55,7 +56,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         </li>
       </ul>
     </td>
-    <td width="50%" valign="top" style="padding-left: 50px;">
+    <td width="50%" valign="top" style="padding-left: 40px;">
       <h3>💻 Coursework & Practice</h3>
       <ul>
         <li><strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong>
