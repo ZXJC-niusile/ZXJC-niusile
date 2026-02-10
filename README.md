@@ -9,6 +9,10 @@
 </div>
 
 <div align="center">
+  <img src="https://github.com/ZXJC-niusile/ZXJC-niusile/raw/output/github-snake.svg" width="100%" alt="snake animation" />
+</div>
+  
+<div align="center">
   <strong>Deep Learning Novice | LLM & Multi-modal Enthusiast</strong>
   &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
   🎓 <strong>BISTU</strong> Undergraduate
@@ -89,4 +93,4 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-season.svg" width="100%" alt="3D Stats" />
-</div>>
+</div>
