@@ -23,7 +23,8 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <table>
   <tr>
-    <td width="50%" valign="middle" style="padding-left: 50px;">
+    <td width="30"></td>
+    <td width="50%" valign="middle">
       <h3>🚀 About Me</h3>
       <ul>
         <li>🌱 <strong>Status:</strong> Novice in Deep Learning.</li>
@@ -45,7 +46,8 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
   </tr>
   
   <tr>
-    <td width="50%" valign="top" style="padding-left: 50px;">
+    <td width="30"></td>
+    <td width="50%" valign="top">
       <h3>🌟 Open Source Contributions</h3>
       <ul>
         <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
@@ -54,7 +56,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         </li>
       </ul>
     </td>
-    <td width="50%" valign="top" style="padding-left: 50px;">
+    <td width="50%" valign="top">
       <h3>💻 Coursework & Practice</h3>
       <ul>
         <li><strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong>
