@@ -14,24 +14,30 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <table>
   <tr>
-    <td width="50%" valign="middle">
+    <td width="30%" valign="top">
       <h3>🚀 About Me</h3>
       <ul>
-        <li>🌱 <strong>Current Status:</strong> A novice in Deep Learning.</li>
-        <li>🔭 <strong>Research Interests:</strong>
+        <li>🌱 <strong>Status:</strong> Novice in Deep Learning.</li>
+        <li>🔭 <strong>Interests:</strong>
           <ul>
-            <li><strong>Focus:</strong> Multi-modal Large Models & LLMs.</li>
-            <li><strong>Exploring:</strong> GNN & Information Retrieval.</li>
+            <li>Multi-modal & LLMs</li>
+            <li>GNN & IR</li>
           </ul>
         </li>
       </ul>
-      <b>🛠 Languages & Tools:</b>
-      <br>
+    </td>
+    
+    <td width="20%" valign="top" align="center">
+      <h3>🛠 Tools</h3>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <br>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+      <br>
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+      <br>
       <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" />
     </td>
+
     <td width="50%" valign="middle">
       <div align="center">
         <a href="https://github.com/ZXJC-niusile">
@@ -40,8 +46,9 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
       </div>
     </td>
   </tr>
+
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>🌟 Open Source Contributions</h3>
       <ul>
         <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong>
@@ -50,6 +57,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         </li>
       </ul>
     </td>
+    
     <td width="50%" valign="top">
       <h3>💻 Coursework & Practice</h3>
       <ul>
