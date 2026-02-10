@@ -84,3 +84,10 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     </td>
   </tr>
 </table>
+
+<br>
+
+<div align="center">
+  <h3>🏆 3D Contribution Graph</h3>
+  <img src="./profile-3d-contrib/profile-green.svg" width="100%" alt="3D Stats" />
+</div>
