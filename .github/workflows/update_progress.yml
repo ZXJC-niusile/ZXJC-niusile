@@ -1,33 +1,44 @@
-name: Update 365-Day Countdown
+name: Update Profile Assets
 
 on:
-  schedule:
-    # 每天 UTC 16:00 运行 (对应北京时间 00:00)
-    - cron: '0 16 * * *'
-  # 允许你手动点击按钮运行 (方便测试)
-  workflow_dispatch:
+schedule:
+# 每天北京时间 00:00 运行 (UTC 16:00)
+- cron: '0 16 * * *'
+
+允许手动点击按钮运行
+
+workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+build:
+runs-on: ubuntu-latest
+permissions:
+contents: write
+steps:
+- name: Checkout code
+uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+  - name: Set up Python
+    uses: actions/setup-python@v4
+    with:
+      python-version: '3.x'
 
-      - name: Run Python script
-        run: python draw_progress.py
+  - name: Install dependencies
+    run: |
+      pip install requests
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git add progress.svg
-          # 只有当图片发生变化时才提交，避免报错
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update progress bar & countdown" && git push)
+  - name: Run Python scripts
+    env:
+      # 必须注入此 Token 才能让脚本调用 GitHub API
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    run: |
+      python draw_progress.py
+      python github_stats.py
+
+  - name: Commit and push changes
+    run: |
+      git config --global user.name "github-actions[bot]"
+      git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      # 同时添加两个生成的图片文件
+      git add progress.svg github_stats.svg
+      git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile assets (progress & stats)" && git push)
