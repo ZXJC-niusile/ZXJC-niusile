@@ -72,6 +72,5 @@ Demo for Huawei Developer Alliance.
 
 <br>
 <div align="center">
-<h3>📊 GitHub Stats</h3>
 <img src="./github_stats.svg?v=1" width="70%" alt="Local GitHub Stats" />
 </div>
