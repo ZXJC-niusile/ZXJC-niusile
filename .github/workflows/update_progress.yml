@@ -1,0 +1,33 @@
+name: Update 365-Day Countdown
+
+on:
+  schedule:
+    # 每天 UTC 16:00 运行 (对应北京时间 00:00)
+    - cron: '0 16 * * *'
+  # 允许你手动点击按钮运行 (方便测试)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Python script
+        run: python draw_progress.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add progress.svg
+          # 只有当图片发生变化时才提交，避免报错
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update progress bar & countdown" && git push)
