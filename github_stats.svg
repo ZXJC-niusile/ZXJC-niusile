@@ -1,38 +1,15 @@
 
-    <svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <style>
-            .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed; }
-            .stat { font: 600 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fff; }
-            .label { font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9f9f9f; }
-            .bg { fill: #1a1b27; stroke: #e4e2e2; stroke-opacity: 0.5; }
-        </style>
-        <rect x="0.5" y="0.5" width="494" height="194" rx="4.5" class="bg" stroke-width="1"/>
-        <text x="25" y="35" class="header">ZXJC-niusile's GitHub Stats</text>
-        
-        <g transform="translate(25, 80)">
-             <text x="0" y="0" class="label">Total Stars:</text>
-             <text x="100" y="0" class="stat">4</text>
-        </g>
-        <g transform="translate(25, 110)">
-             <text x="0" y="0" class="label">Total Commits:</text>
-             <text x="100" y="0" class="stat">163</text>
-        </g>
-        <g transform="translate(25, 140)">
-             <text x="0" y="0" class="label">Total PRs:</text>
-             <text x="100" y="0" class="stat">4</text>
-        </g>
-        
-        <g transform="translate(250, 80)">
-             <text x="0" y="0" class="label">Total Contribs:</text>
-             <text x="110" y="0" class="stat">183</text>
-        </g>
-        <g transform="translate(250, 110)">
-             <text x="0" y="0" class="label">Current Streak:</text>
-             <text x="110" y="0" class="stat">5 Days</text>
-        </g>
-        <g transform="translate(250, 140)">
-             <text x="0" y="0" class="label">Total Issues:</text>
-             <text x="110" y="0" class="stat">2</text>
-        </g>
+    <svg width="576.5"  height="120" viewBox="0 0 576.5 120" fill="#fffefe" xmlns="http://www.w3.org/2000/svg">
+    <style>
+    .text { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .small { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58 }
+    .gray { fill: #858585 }
+    </style>
+    <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#fffefe" stroke="#70a5fd"/>
+    <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
+    <text data-testid="message" x="25" y="55" class="text small">
+      <tspan x="25" dy="18">Could not resolve to a User with the login of 'ZXJC-niusile '.</tspan>
+      <tspan x="25" dy="18" class="gray">Make sure the provided username is not an organization</tspan>
+    </text>
     </svg>
-    
+  
