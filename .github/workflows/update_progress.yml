@@ -1,44 +1,47 @@
 name: Update Profile Assets
 
 on:
-schedule:
-# 每天北京时间 00:00 运行 (UTC 16:00)
-- cron: '0 16 * * *'
-
-允许手动点击按钮运行
-
-workflow_dispatch:
+  schedule:
+    # 每天北京时间 00:00 运行 (即 UTC 16:00)
+    - cron: '0 16 * * *'
+  # 允许手动点击按钮运行
+  workflow_dispatch:
 
 jobs:
-build:
-runs-on: ubuntu-latest
-permissions:
-contents: write
-steps:
-- name: Checkout code
-uses: actions/checkout@v3
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 必须赋予写权限以便提交生成的图片
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-  - name: Set up Python
-    uses: actions/setup-python@v4
-    with:
-      python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-  - name: Install dependencies
-    run: |
-      pip install requests
+      - name: Install dependencies
+        run: |
+          pip install requests
 
-  - name: Run Python scripts
-    env:
-      # 必须注入此 Token 才能让脚本调用 GitHub API
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    run: |
-      python draw_progress.py
-      python github_stats.py
+      - name: Run Python scripts
+        env:
+          # 注意：这里将 secrets.GITHUB_TOKEN 赋值给 GH_TOKEN
+          # 因为 github_stats.py 脚本里写的是 os.environ.get("GH_TOKEN")
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python draw_progress.py
+          python github_stats.py
 
-  - name: Commit and push changes
-    run: |
-      git config --global user.name "github-actions[bot]"
-      git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      # 同时添加两个生成的图片文件
-      git add progress.svg github_stats.svg
-      git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile assets (progress & stats)" && git push)
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 强制添加两个生成的文件（即使它们已存在，add 也能确保暂存最新修改）
+          git add progress.svg github_stats.svg
+          
+          # 检查是否有变更，如果有则提交并推送；如果没有变更则不做任何事（避免报错）
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile assets (progress & stats)" && git push)
