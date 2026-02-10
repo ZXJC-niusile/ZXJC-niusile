@@ -5,12 +5,6 @@
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
 <div align="center">
-  <img src="https://img.shields.io/endpoint?url=https://github-readme-countdown.vercel.app/api?to=2027-01-01T00:00:00&label=Days%20Left%20in%202026&timezone=Asia/Shanghai&color=3776AB&style=flat-square" alt="2026 Countdown">
-  <br>
-  <img src="https://year-progress-stats.vercel.app/api/bar?layout=hard&color=3776AB" width="100%" alt="Year Progress">
-</div>
-
-<div align="center">
   <strong>Deep Learning Novice | LLM & Multi-modal Enthusiast</strong>
   &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
   🎓 <strong>BISTU</strong> Undergraduate
