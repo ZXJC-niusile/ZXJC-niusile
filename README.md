@@ -25,6 +25,12 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
           </ul>
         </li>
       </ul>
+      <b>🛠 Languages & Tools:</b>
+      <br>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" />
     </td>
     <td width="50%" valign="middle">
       <div align="center">
