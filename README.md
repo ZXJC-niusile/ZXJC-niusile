@@ -18,10 +18,30 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 ### About Me
 
-- 🌱 **Current Status:** A novice in Deep Learning, striving to build my knowledge system.
-- 🔭 **Research Interests:**
-    - **Core Focus:** Multi-modal Large Models & Large Language Models (LLMs).
-    - **Exploring:** Graph Neural Networks (GNN) & Information Retrieval.
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>🚀 About Me</h3>
+      <br/>
+      <ul>
+        <li>🌱 <strong>Current Status:</strong> A novice in Deep Learning, striving to build my knowledge system.</li>
+        <li>🔭 <strong>Research Interests:</strong>
+          <ul>
+            <li><strong>Core Focus:</strong> Multi-modal Large Models & LLMs.</li>
+            <li><strong>Exploring:</strong> Graph Neural Networks (GNN) & Information Retrieval.</li>
+          </ul>
+        </li>
+      </ul>
+    </td>
+    <td width="40%" valign="top">
+      <div align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=ZXJC-niusile&show_icons=true&theme=tokyonight&hide_border=true" width="100%" alt="Stats" />
+        <br/><br/>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="100%" alt="Streak" />
+      </div>
+    </td>
+  </tr>
+</table>
 
 ### Contributions & Projects
 
