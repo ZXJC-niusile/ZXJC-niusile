@@ -1,0 +1,47 @@
+name: Daily Countdown Update
+
+on:
+  # 每天北京时间 00:00 运行 (UTC 16:00)
+  schedule:
+    - cron: '0 16 * * *'
+  # 允许你手动点击按钮运行（方便测试）
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Calculate Days & Progress
+        run: |
+          # 1. 计算倒计时 (目标: 2027-01-01)
+          target_sec=$(date -d "2027-01-01" +%s)
+          now_sec=$(date +%s)
+          diff_sec=$((target_sec - now_sec))
+          days_left=$((diff_sec / 86400))
+          
+          # 2. 计算今年进度 (2026年)
+          start_year=$(date -d "2026-01-01" +%s)
+          end_year=$(date -d "2027-01-01" +%s)
+          total_year_sec=$((end_year - start_year))
+          passed_sec=$((now_sec - start_year))
+          # 算出百分比整数
+          progress=$(( 100 * passed_sec / total_year_sec ))
+
+          echo "Days Left: $days_left"
+          echo "Progress: $progress%"
+
+          # 3. 写入 JSON 文件
+          echo "{ \"days\": \"$days_left days\", \"progress\": \"$progress\" }" > countdown.json
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add countdown.json
+          # 如果有变化才提交，防止空提交报错
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update countdown data" && git push)
