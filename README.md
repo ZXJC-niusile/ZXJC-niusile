@@ -14,9 +14,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <table>
   <tr>
-    <td width="60%" valign="top">
-      <h3>🚀 About Me</h3>
-      <br/>
+    <td width="60%" valign="center" style="border: none;">
       <ul>
         <li>🌱 <strong>Current Status:</strong> A novice in Deep Learning, striving to build my knowledge system.</li>
         <li>🔭 <strong>Research Interests:</strong>
@@ -27,7 +25,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         </li>
       </ul>
     </td>
-    <td width="40%" valign="top">
+    <td width="40%" valign="center" style="border: none;">
       <div align="center">
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="100%" alt="Streak" />
       </div>
