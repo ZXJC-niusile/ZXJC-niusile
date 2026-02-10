@@ -3,13 +3,10 @@
 </div>
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
-### Deep Learning Novice | LLM & Multi-modal Enthusiast
-🎓 **Undergraduate Student at Beijing Information Science & Technology University**
-📍 **Beijing, China**
+**Deep Learning Novice | LLM & Multi-modal Enthusiast**
+🎓 **BISTU** Undergraduate · 📍 **Beijing, China**
 
-Hi! I am a developer currently exploring the world of AI from scratch. My motto is **"Destroyed them!"** 💥
-
-I am on a journey to master **Deep Learning**, with a strong passion for **Large Language Models (LLMs)** and **Multi-modal AI**.
+Hi! I am a developer exploring the world of AI from scratch, currently on a journey to master **Deep Learning, LLMs**, and **Multi-modal AI**. My motto is **'Destroyed them!'** 💥"
 
 🌐 **Blog:** [zxjc-niusile.github.io](https://zxjc-niusile.github.io/) | 🆔 **ORCID:** [0009-0009-7380-3094](https://orcid.org/0009-0009-7380-3094) | 📧 **Email:** 2632590648@qq.com
 
