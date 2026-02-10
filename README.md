@@ -29,7 +29,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     </td>
     <td width="40%" valign="top">
       <div align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=ZXJC-niusile&show_icons=true&theme=tokyonight&hide_border=true" width="100%" alt="Stats" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZXJC-niusile&layout=compact&theme=tokyonight&hide_border=true" width="100%" alt="Top Langs" />
         <br/><br/>
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="100%" alt="Streak" />
       </div>
