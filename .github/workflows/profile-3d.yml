@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     
-    # 👇👇👇 关键修复在这里！添加写入权限 👇👇👇
     permissions: 
       contents: write
       
@@ -20,11 +19,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+          # 👇👇👇 自定义颜色配置 (Midnight Violet 风格) 👇👇👇
+          SETTING_JSON: |
+            {
+              "backgroundColor": "#1f2040",
+              "foregroundColor": "#F2E6F1",
+              "strongColor": "#bf91f3",
+              "weakColor": "#4a4b70",
+              "radarColor": "#bf91f3",
+              "growingAnimation": true
+            }
       
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          #以此处为例，如果没有变化就不提交，避免空提交报错
-          git diff --quiet && git diff --staged --quiet || (git commit -m "generated 3d contribution graph" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "generated custom 3d graph" && git push)
