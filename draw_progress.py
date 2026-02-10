@@ -32,9 +32,9 @@ def generate_progress_svg():
     progress_width = (percentage / 100) * width
     
     # 颜色配置 (可以修改这里)
-    bg_color = "#e1e4e8"      # 灰色背景
-    bar_color = "#3776AB"     # 进度条颜色 (Python蓝)
-    text_color = "#586069"    # 文字颜色 (深灰)
+    bg_color = "#1a1b27"      # 灰色背景
+    bar_color = "#70a5fd"     # 进度条颜色 (蓝色)
+    text_color = "#bf91f3"    # 文字颜色 (紫色)
     
     # 5. 生成 SVG 内容
     svg_content = f"""<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
