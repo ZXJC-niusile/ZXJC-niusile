@@ -5,7 +5,7 @@
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
 <div align="center">
-  <img src="./progress.svg" width="70%" alt="Year Progress Bar" />
+  <img src="./progress.svg?v=3" width="70%" alt="Year Progress Bar" />
 </div>
 
 <div align="center">
