@@ -28,6 +28,14 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
   📧 <strong>Email:</strong> <a href="mailto:2632590648@qq.com">2632590648@qq.com</a>
 </div>
 
+<br>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,java,c,cpp,mysql,git,github,vscode,pycharm,idea,notion,latex,html,css,linux,md&perline=17" />
+</div>
+
+<br>
+
 <table>
   <tr>
     <td width="50%" valign="top" style="padding-left: 20px;">
