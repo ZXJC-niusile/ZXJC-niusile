@@ -1,0 +1,62 @@
+name: Update Year Progress
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天午夜运行 (UTC时间)
+  workflow_dispatch: # 允许你手动点击运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Progress SVG
+        run: |
+          python3 -c '
+          import datetime
+          
+          # 1. 计算进度
+          now = datetime.datetime.now()
+          start_of_year = datetime.datetime(now.year, 1, 1)
+          end_of_year = datetime.datetime(now.year + 1, 1, 1)
+          total_seconds = (end_of_year - start_of_year).total_seconds()
+          elapsed_seconds = (now - start_of_year).total_seconds()
+          progress = (elapsed_seconds / total_seconds) * 100
+          days_left = (end_of_year - now).days
+          
+          # 2. 定义颜色 (你的午夜紫罗兰配色)
+          bar_color = "#bf91f3"   # 进度条颜色 (紫)
+          bg_color = "#1f2040"    # 背景颜色 (深蓝)
+          text_color = "#F2E6F1"  # 文字颜色 (粉白)
+          empty_color = "#4a4b70" # 空槽颜色 (暗紫)
+          
+          # 3. 生成 SVG 代码
+          width = 800
+          height = 100
+          bar_width = width - 40
+          fill_width = (bar_width * progress) / 100
+          
+          svg_content = f"""<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" fill="{bg_color}" rx="15" ry="15"/>
+            <text x="50%" y="35" font-family="Arial" font-size="20" fill="{text_color}" text-anchor="middle" font-weight="bold">
+              {now.year} Progress: {progress:.1f}% ({days_left} Days Left)
+            </text>
+            <rect x="20" y="55" width="{bar_width}" height="25" fill="{empty_color}" rx="10" ry="10"/>
+            <rect x="20" y="55" width="{fill_width}" height="25" fill="{bar_color}" rx="10" ry="10"/>
+          </svg>"""
+          
+          # 4. 保存文件
+          with open("progress.svg", "w") as f:
+              f.write(svg_content)
+          '
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add progress.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "update year progress" && git push)
