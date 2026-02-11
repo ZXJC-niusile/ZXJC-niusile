@@ -36,16 +36,6 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <br>
 
-<br>
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ZXJC-niusile&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="ZXJC's Trophies" />
-  </a>
-</div>
-
-<br>
-
 <table>
   <tr>
     <td width="50%" valign="top" style="padding-left: 20px;">
