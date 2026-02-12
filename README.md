@@ -20,7 +20,7 @@
   📍 <strong>Beijing, China</strong>
 </div>
 
-Hi! I am a developer exploring the world of AI from scratch, currently on a journey to master Deep Learning, LLMs, and Multi-modal AI. My motto is 'Destroyed them!' 💥
+Hi! I am a developer exploring the world of AI from scratch, currently on a journey to master Deep Learning, LLMs, and Multi-modal AI. My motto is 'Destroyed them!' 🫒
 
 <div align="center">
   🌐 <strong>Blog:</strong> <a href="https://zxjc-niusile.github.io/">zxjc-niusile.github.io</a> |
