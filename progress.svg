@@ -1,15 +1,12 @@
-<svg width="800" height="40" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-      <clipPath id="round-corner">
-          <rect width="800" height="40" rx="8" ry="8"/>
-      </clipPath>
-  </defs>
-  
-  <rect width="800" height="40" fill="#24292e" clip-path="url(#round-corner)"/>
-  
-  <rect width="92.23760027300862" height="40" fill="#58a6ff" clip-path="url(#round-corner)"/>
-  
-  <text x="50%" y="26" font-family="Verdana, Geneva, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">
-    2026 Progress: 11.5% (322 Days Left)
-  </text>
-</svg>
+<svg width="300" height="20" xmlns="http://www.w3.org/2000/svg">
+      <!-- 背景灰色条 -->
+      <rect rx="4" ry="4" width="300" height="20" fill="#1a1b27" />
+      
+      <!-- 前景蓝色进度条 -->
+      <rect rx="4" ry="4" width="35.10469580289193" height="20" fill="#70a5fd" />
+      
+      <!-- 中间文字: 显示百分比和剩余天数 -->
+      <text x="150.0" y="14" fill="#bf91f3" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold">
+        2026 Progress: 11.7% (322 Days Left)
+      </text>
+    </svg>
