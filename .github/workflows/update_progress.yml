@@ -44,7 +44,7 @@ jobs:
           options: username=ZXJC-niusile&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=1f2040&title_color=9194bf&text_color=F2E6F1&icon_color=D0D1F9&ring_color=9194bf&border_color=70a5fd
 
       # ===============================================
-      # 3. 提交所有图片
+      # 3. 提交所有图片 (已修复冲突问题)
       # ===============================================
       - name: Commit and push changes
         run: |
@@ -54,5 +54,11 @@ jobs:
           # 强制添加两个文件
           git add progress.svg github_stats.svg
           
-          # 提交
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update profile stats & progress" && git push)
+          # 提交（如果文件有变化的话）
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update profile stats & progress"
+          
+          # 👇 关键修复：在 push 之前，先拉取并合并云端最新的代码
+          git pull --rebase origin main
+          
+          # 最后推送
+          git push
