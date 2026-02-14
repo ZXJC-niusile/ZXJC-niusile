@@ -53,10 +53,14 @@ def download_stats():
             
             response.raise_for_status()
 
-            with open("github_stats.svg", "wb") as f:
+            # 👇 新增：确保 image 文件夹存在，如果不存在就自动创建一个
+            os.makedirs("image", exist_ok=True)
+
+            # 👇 修改：路径改为 "image/github_stats.svg"
+            with open("image/github_stats.svg", "wb") as f:
                 f.write(response.content)
             
-            print("✅ Success! Image saved to github_stats.svg")
+            print("✅ Success! Image saved to image/github_stats.svg")
             return 
 
         except Exception as e:
