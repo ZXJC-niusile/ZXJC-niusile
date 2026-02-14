@@ -12,7 +12,7 @@ env:
   # --- 1. 统计卡片配色 (午夜紫罗兰) ---
   STATS_BG_COLOR: "1f2040"
   STATS_TITLE_COLOR: "9194bf"
-  STATS_TEXT_COLOR: "F2E6F1"
+  STATS_TEXT_COLOR: "FFD569"
   STATS_ICON_COLOR: "88ABDA"
   STATS_RING_COLOR: "88BFB8"
   # 删除：边框颜色 (隐藏边框)
