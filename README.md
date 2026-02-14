@@ -68,7 +68,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
   <tr>
     <td width="50%" valign="center" align="center">
       <div align="center">
-        <img src="./github_stats.svg?v=3" width="95%" alt="Local GitHub Stats" />
+        <img src="./github_stats.svg?v=4" width="95%" alt="Local GitHub Stats" />
       </div>
     </td>
     <td width="50%" valign="top" style="padding-left: 20px;">
