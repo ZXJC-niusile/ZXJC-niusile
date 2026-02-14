@@ -7,7 +7,7 @@ def download_stats():
     
     username = "ZXJC-niusile"
     
-    # 🎨 颜色配置 (你的午夜紫罗兰风格)
+    # 🎨 颜色配置
     bg_color = "1f2040"
     title_color = "9194bf"
     text_color = "F2E6F1"
