@@ -2,8 +2,11 @@ import datetime
 import os
 
 def generate_progress_svg():
-    # 1. 获取当前时间
-    now = datetime.datetime.now()
+    print("🚀 Generating Progress Bar...")
+    
+    # 1. 获取当前时间 (🚨 强制转换为北京时间 UTC+8，解决 GitHub 时差问题)
+    utc_now = datetime.datetime.utcnow()
+    now = utc_now + datetime.timedelta(hours=8)
     current_year = now.year
     
     # 2. 定义今年开始和明年开始的时间
@@ -31,20 +34,27 @@ def generate_progress_svg():
     # 计算进度条的宽度
     progress_width = (percentage / 100) * width
     
-    # 颜色配置 (可以修改这里)
-    bg_color = "#1a1b27"      # 灰色背景
-    bar_color = "#70a5fd"     # 进度条颜色 (蓝色)
-    text_color = "#bf91f3"    # 文字颜色 (紫色)
+    # 🎨 从 YML 环境变量读取配置 (如果没有配置，则默认使用你写在下面的颜色)
+    def get_color(env_var, default):
+        color = os.environ.get(env_var, default)
+        return f"#{color}" if not color.startswith("#") else color
+
+    bg_color = get_color("PROG_BG_COLOR", "1a1b27")      # 背景颜色
+    bar_color = get_color("PROG_BAR_COLOR", "70a5fd")     # 进度条颜色
+    text_color = get_color("PROG_TEXT_COLOR", "bf91f3")   # 文字颜色
     
-    # 5. 生成 SVG 内容
+    # 5. 生成 SVG 内容 (增加了 clip-path 保证进度条随圆角完美切割)
     svg_content = f"""<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
-      <!-- 背景灰色条 -->
-      <rect rx="{border_radius}" ry="{border_radius}" width="{width}" height="{height}" fill="{bg_color}" />
+      <defs>
+          <clipPath id="round-corner">
+              <rect width="{width}" height="{height}" rx="{border_radius}" ry="{border_radius}"/>
+          </clipPath>
+      </defs>
       
-      <!-- 前景蓝色进度条 -->
-      <rect rx="{border_radius}" ry="{border_radius}" width="{progress_width}" height="{height}" fill="{bar_color}" />
+      <rect width="{width}" height="{height}" fill="{bg_color}" rx="{border_radius}" ry="{border_radius}" />
       
-      <!-- 中间文字: 显示百分比和剩余天数 -->
+      <rect width="{progress_width}" height="{height}" fill="{bar_color}" clip-path="url(#round-corner)" />
+      
       <text x="{width/2}" y="14" fill="{text_color}" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" font-weight="bold">
         {current_year} Progress: {percentage:.1f}% ({days_left} Days Left)
       </text>
@@ -54,7 +64,7 @@ def generate_progress_svg():
     with open("progress.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
     
-    print(f"Generated progress.svg: {percentage:.1f}% with {days_left} days left.")
+    print(f"✅ Generated progress.svg: {percentage:.1f}% with {days_left} days left.")
 
 if __name__ == "__main__":
     generate_progress_svg()
