@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="./image/image.svg" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/image.svg" width="100%" alt="Header Banner" />
 </div>
 
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
 <div align="center">
-  <img src="./image/progress.svg?v=0214" width="70%" alt="Year Progress Bar" />
+  <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/progress.svg?v=0214" width="70%" alt="Year Progress Bar" />
 </div>
 
 <div align="center">
@@ -68,7 +68,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
   <tr>
     <td width="50%" valign="center" align="center">
       <div align="center">
-        <img src="./image/github_stats.svg?v=0214" width="95%" alt="Local GitHub Stats" />
+        <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/github_stats.svg?v=0214" width="95%" alt="Local GitHub Stats" />
       </div>
     </td>
     <td width="50%" valign="top" style="padding-left: 20px;">
@@ -106,5 +106,5 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <br>
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-season.svg" width="100%" alt="3D Stats" />
+  <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/profile-3d-contrib/profile-season.svg" width="100%" alt="3D Stats" />
 </div>
