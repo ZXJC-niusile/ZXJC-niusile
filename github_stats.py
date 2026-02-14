@@ -11,8 +11,8 @@ def download_stats():
     bg_color = "1f2040"
     title_color = "9194bf"
     text_color = "F2E6F1"
-    icon_color = "D0D1F9"
-    ring_color = "9194bf"
+    icon_color = "88ABDA"
+    ring_color = "88BFB8"
     border_color = "70a5fd"
     
     url = (
