@@ -58,8 +58,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 强制将生成的两张图加入暂存区
-          git add progress.svg github_stats.svg
+          # 👇 关键修改：告诉 Git 去 image 文件夹里找这俩生成的图片
+          git add image/progress.svg image/github_stats.svg
           
           # 如果图片有变化才提交
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update svg assets based on yml config"
