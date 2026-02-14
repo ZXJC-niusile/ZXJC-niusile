@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # 允许手动运行
 
 # ===============================================
-# 🎨 统一颜色配置中心 (修改颜色只需改这里)
+# 🎨 统一颜色配置中心
 # ===============================================
 env:
   # --- 1. 统计卡片配色 (午夜紫罗兰) ---
@@ -15,7 +15,8 @@ env:
   STATS_TEXT_COLOR: "F2E6F1"
   STATS_ICON_COLOR: "88ABDA"
   STATS_RING_COLOR: "88BFB8"
-  STATS_BORDER_COLOR: "70a5fd"
+  # 删除：边框颜色 (隐藏边框)
+  # STATS_BORDER_COLOR: "70a5fd"
 
   # --- 2. 年度进度条配色 (蓝色胶囊) ---
   PROG_BG_COLOR: "24292e"
@@ -47,17 +48,16 @@ jobs:
         run: python draw_progress.py
 
       # ===============================================
-      # 2. 回归官方 Action 生成统计卡片 (动态读取 env 颜色)
+      # 2. 回归官方 Action 生成统计卡片 (无边框版)
       # ===============================================
       - name: Generate GitHub Stats
         uses: readme-tools/github-readme-stats-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           card: stats
-          # 👇 直接保存到 image 文件夹
           path: image/github_stats.svg
-          # 👇 完美融合！直接引用上方 env 配置的颜色，一行搞定
-          options: username=ZXJC-niusile&show_icons=true&hide_border=false&include_all_commits=true&count_private=true&bg_color=${{ env.STATS_BG_COLOR }}&title_color=${{ env.STATS_TITLE_COLOR }}&text_color=${{ env.STATS_TEXT_COLOR }}&icon_color=${{ env.STATS_ICON_COLOR }}&ring_color=${{ env.STATS_RING_COLOR }}&border_color=${{ env.STATS_BORDER_COLOR }}
+          # 👇 关键修改：hide_border=true，并且删除了 border_color 参数
+          options: username=ZXJC-niusile&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=${{ env.STATS_BG_COLOR }}&title_color=${{ env.STATS_TITLE_COLOR }}&text_color=${{ env.STATS_TEXT_COLOR }}&icon_color=${{ env.STATS_ICON_COLOR }}&ring_color=${{ env.STATS_RING_COLOR }}
 
       # ===============================================
       # 3. 提交并推送
@@ -67,12 +67,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 指定添加 image 文件夹下的两张图
           git add image/progress.svg image/github_stats.svg
           
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update assets (official action + custom progress)"
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update assets (remove border)"
           
-          # 防冲突护身符
           git pull --rebase origin main
           
           git push
