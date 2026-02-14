@@ -1,0 +1,70 @@
+name: Update Profile Assets
+
+on:
+  schedule:
+    - cron: '0 16 * * *' # 每天 UTC 16:00 (北京时间 00:00) 准时运行
+  workflow_dispatch: # 允许手动运行
+
+# ===============================================
+# 🎨 统一颜色配置中心 (修改颜色只需改这里)
+# 注意：颜色代码千万不要带 # 号！
+# ===============================================
+env:
+  # --- 1. 统计卡片配色 (午夜紫罗兰) ---
+  STATS_BG_COLOR: "1f2040"
+  STATS_TITLE_COLOR: "9194bf"
+  STATS_TEXT_COLOR: "F2E6F1"
+  STATS_ICON_COLOR: "88ABDA"
+  STATS_RING_COLOR: "88BFB8"
+  STATS_BORDER_COLOR: "70a5fd"
+
+  # --- 2. 年度进度条配色 (蓝色胶囊) ---
+  PROG_BG_COLOR: "24292e"
+  PROG_BAR_COLOR: "58a6ff"
+  PROG_TEXT_COLOR: "ffffff"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # ===============================================
+      # 执行逻辑层 Python 脚本
+      # ===============================================
+      - name: Generate Progress Bar
+        run: python draw_progress.py
+
+      - name: Generate GitHub Stats
+        run: python github_stats.py
+
+      # ===============================================
+      # 提交并推送 (附带防冲突补丁)
+      # ===============================================
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 强制将生成的两张图加入暂存区
+          git add progress.svg github_stats.svg
+          
+          # 如果图片有变化才提交
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update svg assets based on yml config"
+          
+          # 👇 防冲突核心：拉取最新代码防止由于手动改 README 导致的推送失败
+          git pull --rebase origin main
+          
+          git push
