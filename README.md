@@ -5,7 +5,7 @@
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
 <div align="center">
-  <img src="./progress.svg?v=0214" width="70%" alt="Year Progress Bar" />
+  <img src="./image/progress.svg?v=0214" width="70%" alt="Year Progress Bar" />
 </div>
 
 <div align="center">
@@ -68,7 +68,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
   <tr>
     <td width="50%" valign="center" align="center">
       <div align="center">
-        <img src="./github_stats.svg?v=0214" width="95%" alt="Local GitHub Stats" />
+        <img src="./image/github_stats.svg?v=0214" width="95%" alt="Local GitHub Stats" />
       </div>
     </td>
     <td width="50%" valign="top" style="padding-left: 20px;">
