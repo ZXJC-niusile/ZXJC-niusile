@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天午夜自动喂蛇
+    - cron: "0 16 * * *" # 每天 UTC 16:00 (精准对应北京时间 00:00) 自动喂蛇
   workflow_dispatch: # 允许手动喂蛇
 
 jobs:
@@ -17,14 +17,12 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # 🎨 配色魔法：
-          # color_snake: #bf91f3 (你的主题亮紫)
-          # color_dots: 从背景色(#1f2040) 到 亮粉白(#F2E6F1) 的渐变
+          # 🎨 专属火焰热力图配色：
+          # 0级(白) -> 1级(浅黄) -> 2级(橘黄) -> 3级(亮橙) -> 4级(火红) | 蛇: 深红
           outputs: |
-            dist/github-snake.svg?color_snake=#bf91f3&color_dots=#1f2040,#4a4b70,#70a5fd,#9194bf,#F2E6F1
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#bf91f3
+            dist/github-snake.svg?color_snake=#D90013&color_dots=#FFFFFF,#FFF9AF,#FDC070,#F1983A,#EA462A
+            dist/github-snake-dark.svg?color_snake=#D90013&color_dots=#FFFFFF,#FFF9AF,#FDC070,#F1983A,#EA462A
 
-      # 👇👇👇 修正了这里的名字 (删掉了 gh 和 action 中间的横杠) 👇👇👇
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
