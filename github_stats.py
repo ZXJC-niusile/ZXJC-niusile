@@ -1,19 +1,21 @@
+import os
 import requests
 import time
 import random
 
 def download_stats():
-    print("🚀 Starting download...")
+    print("🚀 Starting download GitHub Stats...")
     
     username = "ZXJC-niusile"
     
-    # 🎨 颜色配置
-    bg_color = "1f2040"
-    title_color = "9194bf"
-    text_color = "F2E6F1"
-    icon_color = "88ABDA"
-    ring_color = "88BFB8"
-    border_color = "70a5fd"
+    # 🎨 核心重构：从 YML 环境变量动态读取颜色配置
+    # 如果没读取到环境变量，则使用后面的默认值 (午夜紫罗兰配色)
+    bg_color = os.environ.get("STATS_BG_COLOR", "1f2040")
+    title_color = os.environ.get("STATS_TITLE_COLOR", "9194bf")
+    text_color = os.environ.get("STATS_TEXT_COLOR", "F2E6F1")
+    icon_color = os.environ.get("STATS_ICON_COLOR", "88ABDA")
+    ring_color = os.environ.get("STATS_RING_COLOR", "88BFB8")
+    border_color = os.environ.get("STATS_BORDER_COLOR", "70a5fd")
     
     url = (
         f"https://github-readme-stats.vercel.app/api"
