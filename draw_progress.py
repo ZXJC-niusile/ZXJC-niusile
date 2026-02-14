@@ -60,11 +60,15 @@ def generate_progress_svg():
       </text>
     </svg>"""
     
-    # 6. 保存文件到仓库根目录
-    with open("progress.svg", "w", encoding="utf-8") as f:
+# 6. 保存文件到 image 文件夹
+    # 👇 新增：确保 image 文件夹存在，如果不存在就自动创建一个
+    os.makedirs("image", exist_ok=True)
+    
+    # 👇 修改：路径改为 "image/progress.svg"
+    with open("image/progress.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
     
-    print(f"✅ Generated progress.svg: {percentage:.1f}% with {days_left} days left.")
+    print(f"✅ Generated image/progress.svg: {percentage:.1f}% with {days_left} days left.")
 
 if __name__ == "__main__":
     generate_progress_svg()
