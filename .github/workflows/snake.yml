@@ -20,8 +20,8 @@ jobs:
           # 🎨 专属火焰热力图配色：
           # 0级(白) -> 1级(浅黄) -> 2级(橘黄) -> 3级(亮橙) -> 4级(火红) | 蛇: 深红
           outputs: |
-            dist/github-snake.svg?color_snake=#D90013&color_dots=#FFFFFF,#FFF9AF,#FDC070,#F1983A,#EA462A
-            dist/github-snake-dark.svg?color_snake=#D90013&color_dots=#FFFFFF,#FFF9AF,#FDC070,#F1983A,#EA462A
+            dist/github-snake.svg?color_snake=#D90013&color_dots=#6CA4F9,#FFF9AF,#FDC070,#F1983A,#EA462A
+            dist/github-snake-dark.svg?color_snake=#D90013&color_dots=#6CA4F9,#FFF9AF,#FDC070,#F1983A,#EA462A
 
       - name: Push to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
