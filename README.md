@@ -45,7 +45,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <table>
   <tr>
     <td width="50%" valign="top" style="padding-left: 20px;">
-      <h3> About Me</h3>
+      <h3> 🚀About Me</h3>
       <ul>
         <li>🌱 <strong>Status:</strong> Novice in Deep Learning.</li>
         <li>🔭 <strong>Interests:</strong>
