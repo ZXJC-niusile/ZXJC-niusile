@@ -74,8 +74,14 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     <td width="50%" valign="top" style="padding-left: 20px;">
       <h3>🌟 Open Source Contributions</h3>
       <ul>
-        <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong><br>
+        <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> - a multi-backend AI framework<br>
           I am a <strong>Contributor</strong> to this Unified Deep Learning Framework.
+        </li>
+        <li><strong><a href="https://github.com/datawhalechina/base-llm">base-llm</a></strong> - 从传统自然语言处理（NLP）到大语言模型（LLM）的全栈式学习教程<br>
+          I am a <strong>Contributor</strong> to this Datawhale open-source project.
+        </li>
+        <li><strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> - “langent”由“lang”与“agent”合并而来的学习教程<br>
+          I am a <strong>Contributor</strong> to this Datawhale open-source project.
         </li>
       </ul>
     </td>
