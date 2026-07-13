@@ -81,5 +81,5 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/profile-3d-contrib/profile-season.svg" width="100%" alt="3D Stats" />
+  <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/profile-3d-contrib/profile-customize.svg" width="95%" alt="3D Stats" />
 </div>
