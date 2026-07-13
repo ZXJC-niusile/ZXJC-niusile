@@ -5,10 +5,6 @@
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZXJC-niusile&color=bf91f3&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-</div>
-
-<div align="center">
   <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/progress.svg?v=0214" width="70%" alt="Year Progress Bar" />
 </div>
 
@@ -28,8 +24,11 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <div align="center">
   🌐 <strong>Blog:</strong> <a href="https://zxjc-niusile.github.io/">zxjc-niusile.github.io</a> |
-  🆔 <strong>ORCID:</strong> <a href="https://orcid.org/0009-0009-7380-3094">0009-0009-7380-3094</a> |
   📧 <strong>Email:</strong> <a href="mailto:2632590648@qq.com">2632590648@qq.com</a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=ZXJC-niusile&color=bf91f3&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 </div>
 
 <br>
