@@ -4,13 +4,16 @@
 
 ## བཀྲ་ཤིས་བདེ་ལེགས (Hello), I'm ZXJC (ZXJC-niusile) 👋
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ZXJC-niusile&color=bf91f3&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/progress.svg?v=0214" width="70%" alt="Year Progress Bar" />
-</div>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://komarev.com/ghpvc/?username=ZXJC-niusile&color=bf91f3&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/progress.svg?v=0214" width="90%" alt="Year Progress Bar" />
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img src="https://github.com/ZXJC-niusile/ZXJC-niusile/raw/output/github-snake.svg" width="100%" alt="snake animation" />
