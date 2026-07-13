@@ -31,12 +31,6 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <br>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,java,c,cpp,mysql,git,github,vscode,pycharm,idea,notion,latex,html,css,linux,md&perline=17" />
-</div>
-
-<br>
-
-<div align="center">
   <img src="https://komarev.com/ghpvc/?username=ZXJC-niusile&color=bf91f3&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 </div>
 
