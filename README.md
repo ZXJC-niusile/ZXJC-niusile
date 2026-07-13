@@ -45,35 +45,11 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <table>
   <tr>
     <td width="50%" valign="top" style="padding-left: 20px;">
-      <h3> 🚀About Me</h3>
-      <ul>
-        <li>🌱 <strong>Status:</strong> Novice in Deep Learning.</li>
-        <li>🔭 <strong>Interests:</strong>
-          <ul>
-            <li>Multi-modal Large Models & LLMs</li>
-            <li>GNN & Information Retrieval</li>
-          </ul>
-        </li>
-      </ul>
-    </td>
-    <td width="50%" valign="center" align="center">
-      <div align="center">
-        <a href="https://github.com/ZXJC-niusile">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="90%" alt="Streak" />
-        </a>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" valign="center" align="center">
-      <div align="center">
-        <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/github_stats.svg?v=0214" width="95%" alt="Local GitHub Stats" />
-      </div>
-    </td>
-    <td width="50%" valign="top" style="padding-left: 20px;">
       <h3>🌟 Open Source Contributions</h3>
       <ul>
+        <li><strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> - 基于 TensorLayerX 的多后端图学习库<br>
+          I am a <strong>Contributor</strong>. 复现 DeFoG 相关模型与数据处理流程。
+        </li>
         <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> - a multi-backend AI framework<br>
           I am a <strong>Contributor</strong> to this Unified Deep Learning Framework.
         </li>
@@ -83,23 +59,35 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         <li><strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> - “langent”由“lang”与“agent”合并而来的学习教程<br>
           I am a <strong>Contributor</strong> to this Datawhale open-source project.
         </li>
+        <li><strong><a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></strong> - 从零开始实现基于 Hexo 的个人技术博客搭建教程<br>
+          I am a <strong>核心贡献者</strong>. 参与教程内容编写。
+        </li>
       </ul>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" valign="top" style="padding-left: 20px;">
+      <br>
       <h3>💻 Coursework & Practice</h3>
       <ul>
-        <li><strong><a href="https://github.com/ZXJC-niusile/JudoPro-Backend">JudoPro-Backend</a> (Java)</strong><br>
-          Backend for IR course project.
+        <li><strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> - 从零开始学习多模态大模型，从概念、架构、训练到部署<br>
+          多模态大模型教程项目。
         </li>
-        <li><strong><a href="https://github.com/ZXJC-niusile/huawei_carousel_backend">Carousel Framework</a> (Python)</strong><br>
-          Demo for Huawei Developer Alliance.
+        <li><strong><a href="https://github.com/ZXJC-niusile/SoccerStack">SoccerStack</a></strong> - 基于多模态融合的体育视频结构化智能分析工具<br>
+          足球视频检测与号码识别流水线。
+        </li>
+        <li><strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> - 全自动视频配音流水线<br>
+          视频自动翻译与声音克隆配音流水线。
         </li>
       </ul>
     </td>
-    <td width="50%" valign="center" align="center">
+    <td width="50%" valign="top" align="center">
+      <div align="center">
+        <a href="https://github.com/ZXJC-niusile">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZXJC-niusile&theme=tokyonight&hide_border=true" width="90%" alt="Streak" />
+        </a>
+      </div>
+      <br>
+      <div align="center">
+        <img src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/github_stats.svg?v=0214" width="95%" alt="Local GitHub Stats" />
+      </div>
+      <br>
       <div align="center">
         <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
           <img alt="ZXJC's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ZXJC-niusile&bg_color=1f2040&color=F2E6F1&line=bf91f3&point=D0D1F9&area=true&hide_border=false&border_color=70a5fd&hide_title=false" width="100%" />
