@@ -45,36 +45,16 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <table>
   <tr>
     <td width="50%" valign="top" style="padding-left: 20px;">
-      <h3>🌟 Open Source Contributions</h3>
+      <h3>🛠️ Projects &amp; Open Source</h3>
       <ul>
-        <li><strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> - 基于 TensorLayerX 的多后端图学习库<br>
-          I am a <strong>Contributor</strong>. 复现 DeFoG 相关模型与数据处理流程。
-        </li>
-        <li><strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> - a multi-backend AI framework<br>
-          I am a <strong>Contributor</strong> to this Unified Deep Learning Framework.
-        </li>
-        <li><strong><a href="https://github.com/datawhalechina/base-llm">base-llm</a></strong> - 从传统自然语言处理（NLP）到大语言模型（LLM）的全栈式学习教程<br>
-          I am a <strong>Contributor</strong> to this Datawhale open-source project.
-        </li>
-        <li><strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> - “langent”由“lang”与“agent”合并而来的学习教程<br>
-          I am a <strong>Contributor</strong> to this Datawhale open-source project.
-        </li>
-        <li><strong><a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></strong> - 从零开始实现基于 Hexo 的个人技术博客搭建教程<br>
-          I am a <strong>核心贡献者</strong>. 参与教程内容编写。
-        </li>
-      </ul>
-      <br>
-      <h3>💻 Coursework & Practice</h3>
-      <ul>
-        <li><strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> - 从零开始学习多模态大模型，从概念、架构、训练到部署<br>
-          多模态大模型教程项目。
-        </li>
-        <li><strong><a href="https://github.com/ZXJC-niusile/SoccerStack">SoccerStack</a></strong> - 基于多模态融合的体育视频结构化智能分析工具<br>
-          足球视频检测与号码识别流水线。
-        </li>
-        <li><strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> - 全自动视频配音流水线<br>
-          视频自动翻译与声音克隆配音流水线。
-        </li>
+        <li>🛠️ <strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> — 多模态大模型从零入门教程（项目负责人）</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/SoccerStack">SoccerStack</a></strong> — 足球视频检测与号码识别流水线</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — 视频自动翻译与声音克隆配音流水线</li>
+        <li>✨ <strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> — 复现 DeFoG 相关模型与数据处理流程</li>
+        <li>🌟 <strong><a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></strong> — Hexo 博客搭建教程（核心贡献者）</li>
+        <li>✨ <strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> — 多后端 AI 框架</li>
+        <li>✨ <strong><a href="https://github.com/datawhalechina/base-llm">base-llm</a></strong> — LLM 全栈式学习教程</li>
+        <li>✨ <strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> — LLM Agent 学习教程</li>
       </ul>
     </td>
     <td width="50%" valign="top" align="center">
