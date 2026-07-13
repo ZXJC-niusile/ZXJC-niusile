@@ -9,37 +9,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
-    
-    permissions: 
+
+    permissions:
       contents: write
-      
+
     steps:
       - uses: actions/checkout@v3
 
-      # 👇👇👇 新增步骤：先生成配置文件 👇👇👇
-      - name: Create Config File
-        run: |
-          echo '{
-            "backgroundColor": "#1f2040",
-            "foregroundColor": "#F2E6F1",
-            "strongColor": "#bf91f3",
-            "weakColor": "#4a4b70",
-            "radarColor": "#bf91f3",
-            "growingAnimation": true
-          }' > profile-3d-config.json
-
-      # 👇👇👇 修改步骤：读取刚才生成的文件 👇👇👇
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          # 这里填的是文件名，而不是代码了
-          SETTING_JSON: profile-3d-config.json
-      
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          # 如果有变化才提交
-          git diff --quiet && git diff --staged --quiet || (git commit -m "generated custom 3d graph" && git push)
+          if git commit -m "generated 3d contribution graph" -m "skip-checks: true"; then
+            git push
+          fi
