@@ -24,10 +24,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 
 <div align="center">
   🌐 <strong>Blog:</strong> <a href="https://zxjc-niusile.github.io/">zxjc-niusile.github.io</a> |
-  📧 <strong>Email:</strong> <a href="mailto:2632590648@qq.com">2632590648@qq.com</a>
-</div>
-
-<div align="center">
+  📧 <strong>Email:</strong> <a href="mailto:2632590648@qq.com">2632590648@qq.com</a> |
   <img src="https://komarev.com/ghpvc/?username=ZXJC-niusile&color=bf91f3&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 </div>
 
