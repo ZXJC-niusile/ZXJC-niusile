@@ -52,6 +52,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — 视频自动翻译与声音克隆配音流水线</li>
         <li>✨ <strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> — 复现 DeFoG 相关模型与数据处理流程</li>
         <li>🌟 <strong><a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></strong> — Hexo 博客搭建教程（核心贡献者）</li>
+        <li>✨ <strong><a href="https://github.com/datawhalechina/hello-agents">hello-agents</a></strong> — 智能体原理与实践教程</li>
         <li>✨ <strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> — 多后端 AI 框架</li>
         <li>✨ <strong><a href="https://github.com/datawhalechina/base-llm">base-llm</a></strong> — LLM 全栈式学习教程</li>
         <li>✨ <strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> — LLM Agent 学习教程</li>
