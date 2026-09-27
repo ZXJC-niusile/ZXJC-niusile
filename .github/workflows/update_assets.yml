@@ -53,7 +53,7 @@ jobs:
       - name: Generate GitHub Stats
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           card: stats
           path: image/github_stats.svg
           # 👇 关键修改：hide_border=true，并且删除了 border_color 参数
