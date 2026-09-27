@@ -60,16 +60,27 @@ jobs:
           options: username=ZXJC-niusile&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=${{ env.STATS_BG_COLOR }}&title_color=${{ env.STATS_TITLE_COLOR }}&text_color=${{ env.STATS_TEXT_COLOR }}&icon_color=${{ env.STATS_ICON_COLOR }}&ring_color=${{ env.STATS_RING_COLOR }}
 
       # ===============================================
-      # 3. 提交并推送
+      # 3. 生成活跃度折线图 (Activity Graph)
+      # ===============================================
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          token: ${{ secrets.GH_PAT }}
+          username: ZXJC-niusile
+          output_path: image/activity_graph.svg
+          options: bg_color=1f2040&color=F2E6F1&line=bf91f3&point=D0D1F9&area=true&hide_border=false&border_color=70a5fd&hide_title=false
+
+      # ===============================================
+      # 4. 提交并推送 (以个人账号身份提交计入贡献/绿墙)
       # ===============================================
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "ZXJC-niusile"
+          git config --global user.email "2632590648@qq.com"
           
-          git add image/progress.svg image/github_stats.svg
+          git add image/progress.svg image/github_stats.svg image/activity_graph.svg
           
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update assets (remove border)"
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update assets (stats, progress, activity-graph)"
           
           git pull --rebase origin main
           
