@@ -59,7 +59,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
       <br>
       <div align="center">
         <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-          <img alt="ZXJC's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ZXJC-niusile&bg_color=1f2040&color=F2E6F1&line=bf91f3&point=D0D1F9&area=true&hide_border=false&border_color=70a5fd&hide_title=false" width="95%" />
+          <img alt="ZXJC's Activity Graph" src="https://raw.githubusercontent.com/ZXJC-niusile/ZXJC-niusile/main/image/activity_graph.svg" width="95%" />
         </a>
       </div>
     </td>
