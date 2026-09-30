@@ -35,15 +35,15 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
     <td width="50%" valign="top" style="padding-left: 20px;">
       <h3>🛠️ Projects &amp; Open Source</h3>
       <ul>
-        <li>🛠️ <strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> — 多模态大模型从零入门教程（项目负责人）</li>
-        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/SoccerStack">SoccerStack</a></strong> — 足球视频检测与号码识别流水线</li>
-        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — 视频自动翻译与声音克隆配音流水线</li>
-        <li>✨ <strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> — 复现 DeFoG 相关模型与数据处理流程</li>
-        <li>🌟 <strong><a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></strong> — Hexo 博客搭建教程</li>
-        <li>✨ <strong><a href="https://github.com/datawhalechina/hello-agents">hello-agents</a></strong> — 智能体原理与实践教程</li>
-        <li>✨ <strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> — 多后端 AI 框架</li>
-        <li>✨ <strong><a href="https://github.com/datawhalechina/base-llm">base-llm</a></strong> — LLM 全栈式学习教程</li>
-        <li>✨ <strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> — LLM Agent 学习教程</li>
+        <li>🛠️ <strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> — Zero-to-hero Multimodal LLM tutorial (Project Lead)</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/SoccerStack">SoccerStack</a></strong> — Soccer video detection and jersey number recognition pipeline</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — Automated video translation and voice-cloning dubbing pipeline</li>
+        <li>✨ <strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> — Reproduced DeFoG models and data processing workflows</li>
+        <li>🌟 <strong><a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></strong> — Hexo blog building and customization tutorial</li>
+        <li>✨ <strong><a href="https://github.com/datawhalechina/hello-agents">hello-agents</a></strong> — Principles and practical guide to AI Agents</li>
+        <li>✨ <strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> — Multi-backend deep learning and AI framework</li>
+        <li>✨ <strong><a href="https://github.com/datawhalechina/base-llm">base-llm</a></strong> — Full-stack LLM learning guide and tutorial</li>
+        <li>✨ <strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> — Practical tutorial for building LLM Agents</li>
       </ul>
     </td>
     <td width="50%" valign="top" align="center">
