@@ -42,13 +42,7 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
         <li>✨ <strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> — Deep learning framework with PyTorch 2.6+ compatibility fix (Contributor)</li>
         <li>✨ <strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> — LCEL expression refactoring &amp; LLM Agent tutorials (Contributor)</li>
       </ul>
-      <p>
-        🌱 <strong>Other Merged Contributions:</strong>
-        <a href="https://github.com/datawhalechina/base-llm">base-llm</a> &nbsp;•&nbsp;
-        <a href="https://github.com/datawhalechina/hello-agents">hello-agents</a> &nbsp;•&nbsp;
-        <a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a>
-      </p>
-
+      <p>🌱 <strong>Other Merged Contributions:</strong> <a href="https://github.com/datawhalechina/base-llm">base-llm</a> &nbsp;•&nbsp; <a href="https://github.com/datawhalechina/hello-agents">hello-agents</a> &nbsp;•&nbsp; <a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></p>
       <h3>🛠️ Personal Projects</h3>
       <ul>
         <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — Automated video translation and voice-cloning dubbing pipeline (Personal)</li>
