@@ -33,18 +33,23 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
 <table>
   <tr>
     <td width="50%" valign="top" style="padding-left: 20px;">
-      <h3>🛠️ Projects &amp; 🌟 Open Source</h3>
+      <h3>🛠️ Featured Projects &amp; 🌟 Open Source</h3>
       <ul>
-        <li>🛠️ <strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> — Zero-to-hero Multimodal LLM tutorial (Lead)</li>
-        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/SoccerStack">SoccerStack</a></strong> — Soccer video detection and jersey number recognition pipeline (Personal)</li>
-        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — Automated video translation and voice-cloning dubbing pipeline (Personal)</li>
-        <li>✨ <strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> — Reproduced DeFoG models and data processing workflows (Contributor)</li>
-        <li>✨ <strong><a href="https://github.com/datawhalechina/hello-hexo-blog">hello-hexo-blog</a></strong> — Hexo blog building and customization tutorial (Contributor)</li>
-        <li>✨ <strong><a href="https://github.com/datawhalechina/hello-agents">hello-agents</a></strong> — Principles and practical guide to AI Agents (Contributor)</li>
-        <li>✨ <strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> — Multi-backend deep learning and AI framework (Contributor)</li>
-        <li>✨ <strong><a href="https://github.com/datawhalechina/base-llm">base-llm</a></strong> — Full-stack LLM learning guide and tutorial (Contributor)</li>
-        <li>✨ <strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> — Practical tutorial for building LLM Agents (Contributor)</li>
+        <li>🛠️ <strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> — Zero-to-hero Multimodal LLM tutorial &amp; CI pipeline (Lead)</li>
+        <li>🛠️ <strong><a href="https://github.com/stepfun-ai/Step-Code">Step-Code</a></strong> — StepFun's terminal coding agent runtime &amp; Shell fixes (Co-author)</li>
+        <li>✨ <strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> — First graph diffusion model (DeFoG) in BUPT GNN library (Contributor)</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — AI video translation and voice-cloning dubbing pipeline (Personal)</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OfferGet">OfferGet</a></strong> — Evidence-grounded resume evaluation &amp; CLI system (Personal)</li>
       </ul>
+      <p>
+        <strong>🌱 More Merged Contributions:</strong><br>
+        🏛️ <a href="https://github.com/TsinghuaC3I/MARTI"><strong>MARTI</strong></a> (Tsinghua C3I) &nbsp;•&nbsp;
+        ⚙️ <a href="https://github.com/tensorlayer/TensorLayerX"><strong>TensorLayerX</strong></a> &nbsp;•&nbsp;
+        🤖 <a href="https://github.com/datawhalechina/easy-langent"><strong>easy-langent</strong></a><br>
+        📚 <a href="https://github.com/datawhalechina/base-llm"><strong>base-llm</strong></a> &nbsp;•&nbsp;
+        ✨ <a href="https://github.com/datawhalechina/hello-agents"><strong>hello-agents</strong></a> &nbsp;•&nbsp;
+        🌐 <a href="https://github.com/datawhalechina/hello-hexo-blog"><strong>hello-hexo-blog</strong></a>
+      </p>
     </td>
     <td width="50%" valign="top" align="center">
       <div align="center">
