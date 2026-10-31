@@ -36,10 +36,10 @@ Hi! I am a developer exploring the world of AI from scratch, currently on a jour
       <h3>🛠️ Projects &amp; 🌟 Open Source Contributions</h3>
       <ul>
         <li>🛠️ <strong><a href="https://github.com/datawhalechina/start-mllm">start-mllm</a></strong> — Zero-to-hero Multimodal LLM tutorial &amp; CI pipeline (Lead)</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OfferGet">OfferGet</a></strong> — Evidence-grounded resume evaluation &amp; CLI system</li>
+        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — Automated video translation and voice-cloning dubbing pipeline</li>
         <li>🌟 <strong><a href="https://github.com/stepfun-ai/Step-Code">Step-Code</a></strong> — StepFun's terminal coding agent runtime &amp; shell fixes (Co-author)</li>
         <li>✨ <strong><a href="https://github.com/BUPT-GAMMA/GammaGL">GammaGL</a></strong> — First graph diffusion model (DeFoG) in BUPT GNN library (Contributor)</li>
-        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OfferGet">OfferGet</a></strong> — Evidence-grounded resume evaluation &amp; CLI system (83 PRs)</li>
-        <li>🛠️ <strong><a href="https://github.com/ZXJC-niusile/OmniDub">OmniDub</a></strong> — Automated video translation and voice-cloning dubbing pipeline</li>
         <li>✨ <strong><a href="https://github.com/TsinghuaC3I/MARTI">MARTI</a></strong> — Ray + vLLM async inference &amp; single-agent training in Tsinghua C3I framework (Contributor)</li>
         <li>✨ <strong><a href="https://github.com/datawhalechina/easy-langent">easy-langent</a></strong> — LCEL expression refactoring &amp; LLM Agent tutorials (6 PRs)</li>
         <li>✨ <strong><a href="https://github.com/tensorlayer/TensorLayerX">TensorLayerX</a></strong> — Deep learning framework with PyTorch 2.6+ compatibility fix (Contributor)</li>
